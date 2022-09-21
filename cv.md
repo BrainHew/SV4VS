@@ -1,8 +1,12 @@
 # Сurriculum vitae
 Name: Vadim
+
 SurName: Kozhemyako
+
 Mobile Phone: +375297704409
+
 Email: kozhemyacko.vadim@yandex.ru
+
 VK: 
 [![N|Solid](https://spartaboxing.ru/thumb/2/y1mI-VRxO5FovI48lQeQgg/40r40/d/kisspng-russia-social-media-marketing-vkontakte-social-net-vk-logo-png-5ab0b9c1b5a0b1893566341521531329744_1.png)](https://vk.com/vadfenrir)
 
