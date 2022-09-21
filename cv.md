@@ -29,8 +29,10 @@ $c = $a + $b;
 ``` 
 ### Work experience
 > There is no work experience, only what the university itself gave.
-Project Name: Accounting of Equipment in Research Laboratories
-Link to the project: https://github.com/BrainHew/trpo
+
+>Project Name: Accounting of Equipment in Research Laboratories
+
+>Link to the project: https://github.com/BrainHew/trpo
 
 ### Foreign Languages Skills
 English - A1;
