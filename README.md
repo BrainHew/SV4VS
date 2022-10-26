@@ -1,3 +1,3 @@
 # SV4VS
-https://brainhew.github.io/SV4VS/CV.html
+https://BrainHew.github.io/SV4VS/CV.html
 
