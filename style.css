@@ -1,0 +1,139 @@
+.test{
+	text-align:center 15px;
+	font-size:60px;
+	font-family: 'Mali';
+	margin-top: 40px;
+}
+
+.test1{
+	color:#7b7f86;
+	font-size:40px;
+	font-family: 'Mali';
+}
+.sidebar{
+	margin-top: -10px;
+	margin-left: -1px;
+	width:12cm;
+	float:left;
+	height:37cm;
+}
+
+.inner-sidebar{
+	background:#323b4c;
+	height:37cm;
+}
+.inner-sidebar-text{
+	margin-top: -30px;
+	min-width:70%;
+	float:right;
+}
+
+.content{
+	width:78%;
+	width:1000px;
+	float:right;
+	height:37cm;
+}
+
+.inner-content{
+	background:white;
+	min-height:500px;
+	
+}
+
+.footer{
+	margin-top: 200px;
+	background:white;
+}
+
+#sorka{
+	padding-top:20px;
+	margin: 10px auto 20px;
+    display: block;
+}
+#vk{
+	padding-top:20px;
+	margin-right: 150px;
+    display: block;
+	float:right;
+}
+#gh{
+	padding-top:20px;
+	margin-left: 100px;
+    display: block;
+	float:left;
+}
+#text1{
+	color:white;
+	font-size:40px;
+	font-family: 'Gloria Hallelujah';
+	text-align:center  15px;
+    border-bottom: 3px solid #cccccc; /* Цвет линии внизу */
+}
+
+#text2{
+	color:white;
+	font-size:26px;
+	font-family: 'Gloria Hallelujah';
+	text-align:center  15px;
+
+}
+#text3{
+	color:white;
+	font-size:18px;
+	font-family: 'Gloria Hallelujah';
+	text-align:center  15px;
+
+}
+#text4{
+	color:#323332;
+	font-size:34px;
+	font-family: 'Gloria Hallelujah';
+}
+#a{
+	color:#75c1ff;
+	font-size:32px;
+	font-family: 'Gloria Hallelujah';
+}
+h1{
+	font-size:45px;
+	color:black;
+	height: 2cm;
+	border-bottom: 3px solid #666666; /* Цвет линии внизу */
+}
+h2{
+	font-size:45px;
+	color:black;
+	height: 2cm;
+	border-bottom: 3px solid #666666; /* Цвет линии внизу */
+}
+h3{
+	text-align:center;
+	font-size:45px;
+	color:black;
+}
+
+.row {
+	height: 36.95cm;
+	width:40.5cm;
+	margin: 0 auto;
+	border: 2px solid #323b4c;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
