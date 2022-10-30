@@ -1,23 +1,29 @@
-.test{
+#test{
 	text-align:center 15px;
 	font-size:60px;
 	font-family: 'Mali';
 	margin-top: 40px;
 }
 
-.test1{
+#test1{
 	color:#7b7f86;
 	font-size:40px;
 	font-family: 'Mali';
 }
 .sidebar{
-	margin-top: -10px;
-	margin-left: -1px;
+	margin-top: -851px;
+	margin-left: -532px;
 	width:12cm;
 	float:left;
 	height:37cm;
 }
-
+#year{
+	margin-top: 400px;
+	margin-right: -370px;
+	float:right;
+	font-size:30px;
+	font-family: 'Mali';
+}
 .inner-sidebar{
 	background:#323b4c;
 	height:37cm;
@@ -88,11 +94,6 @@
 #text4{
 	color:#323332;
 	font-size:34px;
-	font-family: 'Gloria Hallelujah';
-}
-#a{
-	color:#75c1ff;
-	font-size:32px;
 	font-family: 'Gloria Hallelujah';
 }
 h1{
