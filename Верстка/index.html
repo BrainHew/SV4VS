@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css"/>
+   <link rel="stylesheet" href="select.css"/>
+   <link rel="stylesheet" href="music.css"/>
+   <title>Лабораторная работа 5</title>
+</head>
+<body>
+    <div class="allblocks">
+        <header>
+            <div class = "block1">
+                <p>SALMA</p>    
+                <div class="container">
+                    <div class="block1-box-1 lang" key="HOME"> HOME </div>
+                    <div class="block1-box-2 lang" key="SHOP"> SHOP </div>
+                    <div class="block1-box-3 lang" key="ABOUT"> ABOUT </div>
+                    <div class="block1-box-4 lang" key="JOURNAL"> JOURNAL </div>
+                    <div class="block1-box-5 lang" key="CONTACT"> CONTACT </div>
+                </div>
+                <div class="corsinka">
+                    <div class="crujok">0</div>
+                    <img id="corsina" src="IMAGE (4).png">
+                </div>
+                <div class="custom-select1">
+                    <select name="selectcheck" class="translate" onchange="SaveSelectValue(this)">
+                        <option  value= "en">EN</option>
+                        <option  value= "ru">RU</option>
+                    </select>
+                </div>
+                <div class="custom-select2">
+                    <div id="something" class="btn">Change Theme</button>
+                </div>
+                <audio id="audio" src="Born to die.mp3" controls></audio>
+            </div>
+        </header>
+        <main>
+            <div class="block2">
+                <div class="box-1">
+                    <img class="myImage1"src="IMAGE (2).jpg">
+                    <p class="lang" id = "big" key="organic">Organic cotton, free from harmful substances.</p>
+                    <p class="lang" id = "small" key="eco">ECO-RELAX. MADE WITH 100% GOTS</p>
+                    <button class="lang" type="button" key="button1" >SHOP THE COLLECTION</button>
+                </div>
+                <div class="box-2"><img class="myImage2" src="IMAGE (4).jpg">
+                    <p class="lang" id = "big" key="new">Shop New in </p>
+                    <p class="lang" id = "small" key="now">SHOP NOW</p>
+                    <div id="line"></div>
+                </div>
+                <div class="box-3"><img class="myImage3" src="IMAGE (3).jpg">
+                    <p class="lang" id = "big" key="bestsellers">Shop Bestsellers</p>
+                    <p  id = "small" class="lang" key="now">SHOP NOW</p>
+                    <div id="line"></div>
+                </div>
+            </div>
+            <p id = "text" class="lang" key="textshop">
+                Shop hundreds of enamel pins from artists.
+                 The best cool pin badges to decorate your backpack,
+                  denim jean jacket, lapel,
+                 and festival hat for sale in our online store.
+            </p>
+            <div class = "block3">
+                <div class="container">
+                    <div class="box-1">
+                        <div class="crujok1">1</div>
+                        <p id = "big1" class="lang big" key="FREE">CRUELTY FREE</p>
+                        <p id = "small1" class="lang small" key="digital">Free digital proofs and best design advice</p>
+                        <div class="line"></div>
+                    </div>
+                    <div class="box-2"> 
+                        <div class="crujok2">2</div>
+                        <p id = "big2" class="lang big" key="vegan">100% VEGAN</p>
+                        <p id = "small2" class="lang small" key="always">You can always start with 50 pcs here</p>
+                        <div class="line"></div>
+                    </div>
+                    <div class="box-3">
+                        <div class="crujok3">3</div>
+                        <p id = "big3" class="lang big" key="NATURAL">NATURAL INGREDIENTS</p>
+                        <p id = "small3" class="lang small" key="Get">Get excellent pins or have your money back</p>
+                    </div>
+                </div>
+            </div>
+           <div class ="block4">
+                <div class="box-1"><img src="IMAGE (3).png">
+                    <p id = "big4" class="lang big" key="Hard">Hard BOILED Egg and Avocado</p>
+                    <p id = "small4" >$ 7.99 USD  $ 5.00 USD</p>
+                </div>
+                <div class="box-2"><img src="IMAGE (1).png">
+                    <p id = "big5" class="lang big" key="BOMB">BOMB! Enamel Pin</p>
+                    <p id = "small5">$ 7.12 USD</p>
+                </div>
+                <div class="box-3"><img src="IMAGE (2).png">
+                    <p id = "big6" class="lang big" key="Pineapple">Pineapple Charm Pendant</p>
+                    <p id = "small6">$ 9.99 USD</p>
+                </div>
+            </div>
+            <div class="text">
+                <p id = "big7" class="lang big" key="powerhouse">
+                    From our powerhouse to your house.
+                </p>
+                <p id = "small7" class="lang small" key="Lorem">Lorem ipsum dolor sit amet,
+                        consectetur adipiscing elit.
+                        Suspendisse varius enim in eros elementum tristique.
+                </p>
+            </div>
+             <div class="block5">
+                <div class="box-1"><img  src="1.png">
+                    <div class="crujok2">1</div>
+                    <p id = "textRight" class="lang" key="Use">Use this text to describe the first step...</p>
+                </div>
+                <div class="box-2"><img  src="2.png">
+                    <div class="crujok2">2</div>
+                    <p id = "textRight" class="lang" key="second">...the second step is following here...</p>
+                </div>
+                <div class="box-3"><img src="3.png">
+                    <div class="crujok2">3</div>
+                    <p id = "textRight" class="lang" key="aaand">...aaand the third one...</p>
+                </div>
+                <div class="box-4"><img  src="4.png">
+                    <div class="crujok2">4</div>
+                    <p id = "textRight" class="lang" key="last">...This is the last fourth step of how it works.</p>
+                </div>
+            </div>
+            <div class="block6">
+                <p id = "big" class="lang" key="rest">
+                    Get the rest of the story
+                </p>
+                <div class="container1">
+                    <div class="box-1"><img src="5.png"></div>
+                    <div class="box-2"><p id = "small" class="lang" key="Best">“Best templates and support out there!
+                        They are always happy to help with any issues you may be having 
+                        or even just showing how to edit things.”
+                    </p>
+                    <p id = "small1" class="lang" key="Sam">Sam (Trustpilot)
+                    </p>
+                    </div>
+                </div>
+                <img id = "img" src="Frame.png">
+            </div>
+            <div class="block7">
+                <p id = "big" class="lang" key="personal">A personal commerce
+                    expert at your fingertips
+                </p>
+                <img src="7.png">
+                <p id = "small" class="lang" key="Lorem1">Lorem ipsum dolor sit amet,
+                        consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.
+                        Duis cursus, mi quis viverra ornare, eros dolor interdum nulla,
+                        ut commodo diam libero vitae erat.</p>
+                <button type="button" class="lang" key="started">Get started</button>
+            </div>
+            <div class="block8">
+                <p id = "small" class="lang" key="QUESTIONS">YOU HAVE QUESTIONS</p>
+                <div class="line"></div>
+                <p id = "big" class="lang" key="We’ve">We’ve got answers.</p>
+                <div class="container2">
+                    <div class="box-1"><p id="top" class="lang" key="offer">Do you offer educational discounts? </p>
+                        <p id="left">01</p>
+                        <p id="right" class="lang" key="add">add</p>
+                    </div>
+                    <div class="box-2"><p id="top" class="lang" key="Which">Which payment methods do you accept? </p>
+                        <p id="left">02</p>
+                        <p id="right" class="lang" key="add">add</p>
+                    </div>
+                    <div class="box-3"><p id="top" class="lang" key="license">I have a license. Can I switch to a subscription?</p> 
+                        <p id="left">03</p>
+                        <p id="right" class="lang" key="add">add</p>
+                    </div>
+                </div>
+                <button type="button" class="lang" key="trial">Start free trial</button>
+                <p id = "smallButton" class="lang" key="lorem">30 day trial lorem ipsum dolor.</p>
+                <p id = "rin" class="lang" key="Follow">Follow <a href="#" style="color:#d1c8e7; text-decoration:none">@salma</a>
+                <p id = "bes" class="lang" key="Instagram">on Instagram<p></p>
+                <button id = "follow" type="button" class="lang" key="buttonFollow" onclick="before()">Follow @salma</button>
+            </div>   
+            <div class = "block9">
+                <div class="container3">
+                    <div class="box-1"> <img id="myImg1" src="12.png" ><p class="lang" key="This">This is some text from your @instagram feed.</p> <div class="line"></div></div>
+                    <div class="box-2"> <img id="myImg2" src="11.png" ><p class="lang" key="This">This is some text from your @instagram feed.</p> <div class="line"></div></div>
+                    <div class="box-3"> <img id="myImg3" src="13.png" ><p class="lang" key="This">This is some text from your @instagram feed.</p> <div class="line"></div></div>
+                    <div class="box-4"> <img id="myImg4" src="10.png" ><p class="lang" key="This">This is some text from your @instagram feed.</p> </div>
+                </div>
+            </div>
+            <div class = "block10">
+                <p id = "big" class="lang" key="Sign">Sign up for email newsletters from SALMA!</p>
+
+                <p id = "small1" class="lang" key="learn">To learn how we process your data, visit our</p>
+                <p id = "small2" class="lang" key="Privacy">Privacy Notice</p>
+                <p id = "small3" class="lang" key="can">. You can</p>
+                <p id = "small4" class="lang" key="unsubscribe">unsubscribe</p>
+                <p id = "small5" class="lang" key="any">at any time without costs.</p>
+
+                <p id = "right1" class="lang" key="Social">Social Links</p>
+                <div class="container4">
+                    <div class="box-1"> <p id = "top" class="lang" key="SHOP">SHOP</p> 
+                        <dl>
+                            <dd class="lang" key="products">All products</dd>
+                            <dd class="lang" key="Fruit">Fruit</dd>
+                            <dd class="lang" key="Custom">Custom</dd>
+                            <dd class="lang" key="Cute">Cute</dd>
+                        </dl>
+                    </div>
+                    <div class="box-2" > <p id = "top" class="lang" key="LEARN">LEARN</p>
+                        <dl>
+                            <dd class="lang" key="HOME">Home</dd>
+                            <dd class="lang" key="SHOP">Shop</dd>
+                            <dd class="lang" key="ABOUT">About us</dd>
+                            <dd class="lang" key="JOURNAL">Journal</dd>
+                            <dd class="lang" key="FAQ">FAQ</dd>
+                            <dd class="lang" key="CONTACT">Contact</dd>
+                        </dl>
+                    </div>
+                    <div class="box-3">  <p id = "top" class="lang" key="Template">TEMPLATE</p>
+                        <dl>
+                            <dd class="lang" key="Style">Style Guide</dd>
+                            <dd class="lang" key="Instructions">Instructions</dd>
+                            <dd class="lang" key="Licensing">Licensing</dd>
+                            <dd class="lang" key="Changelog">Changelog</dd>
+                            <dd class="lang" key="Templates">More Templates</dd>
+                        </dl>
+                    </div>
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <picture>
+                <source  srcset="14.png" media="(min-width: 800px)" />
+                <source srcset="2222222222.png" media="(min-width: 400px)" />
+                <img  src="22.png" />
+            </picture>
+        </footer>
+    </div>
+    <script src="lang.js"></script>
+    <script src="script.js"></script>
+    <script src="theme.js"></script>
+    <script src="music.js"></script>
+</body>
+</html>
